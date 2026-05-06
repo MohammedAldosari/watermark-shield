@@ -1,0 +1,15 @@
+/* Demo-only styles. Real consumers don't need any of this. */
+html,
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #0f1d2a;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background: #0d1117;
+    color: #e6edf3;
+  }
+}
